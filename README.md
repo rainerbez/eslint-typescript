@@ -5,6 +5,7 @@
 - Install [Node.js](https://nodejs.org/en/download/)
 - Install [Git](https://git-scm.com/downloads)
 - Install [Yarn](https://yarnpkg.com/getting-started/install)
+- Install [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - Open a Terminal and type:\
   `git clone https://github.com/rainerbez/eslint-typescript`
 - Proceed into the downloaded repository: \
