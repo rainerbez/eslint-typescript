@@ -1,0 +1,25 @@
+{
+    "name": "kickstart-typescript",
+    "version": "1.0.0",
+    "author": "Rainer Bezzina",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "eslint": "eslint 'src/**/*'",
+        "compile": "eslint 'src/**/*' && tsc",
+        "compile:watch": "tsc -w",
+        "start": "lite-server"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^4.15.2",
+        "@typescript-eslint/parser": "^4.15.2",
+        "eslint": "^7.20.0",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-config-prettier": "^8.1.0",
+        "eslint-plugin-import": "^2.22.1",
+        "lite-server": "^2.6.1",
+        "ts-loader": "^8.0.17",
+        "typescript": "^4.1.5"
+    }
+}
